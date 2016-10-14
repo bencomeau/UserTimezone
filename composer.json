@@ -1,0 +1,30 @@
+{
+    "name": "bencomeau/usertimezone",
+    "description": "A simple solution for converting Laravel's default dates attributes to a user's set timezone, for 5.2+",
+    "license": "MIT",
+    "keywords": [
+        "timezone",
+        "date",
+        "dates"
+    ],
+    "authors": [
+        {
+            "name": "Ben Comeau",
+            "email": "contact@bencomeau.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.2.*|5.3.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "5.5.*",
+        "laravel/framework": "5.2.*|5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenComeau\\UserTimeZone\\": "src/"
+        }
+    }
+}
